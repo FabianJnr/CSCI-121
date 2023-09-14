@@ -1,0 +1,5 @@
+sPyramid = input("Symbol? ")
+print(' ' * 3 + sPyramid)
+print(' ' * 2 + sPyramid * 3)
+print(' ' + sPyramid * 5)
+print(sPyramid * 7)

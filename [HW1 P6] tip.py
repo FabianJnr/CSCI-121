@@ -1,0 +1,5 @@
+pDollars = float(input('Price dollars? '))
+pCents = float(input('Price cents? '))
+tPercentage = float(input("Tip percentage [0-100]? "))
+totalTip = round((tPercentage/100) * (pDollars + pCents/100), 2)
+print(totalTip)
